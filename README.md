@@ -1,10 +1,10 @@
-#🌐Découverte Symfony
+## 🌐Découverte Symfony
 
 Ce dépôt contient un projet Symfony utilisé pour expérimenter et comprendre les bases du framework PHP Symfony.
 
 ---
 
-##🌐Installation
+## 🌐Installation
 
 Assurez-vous d'avoir PHP 8.2, Composer et Symfony CLI installés.
 
@@ -16,7 +16,7 @@ composer install
 
 ---
 
-##🌐Base de données
+## 🌐Base de données
 
 Créez la base de données et appliquez les migrations générées avec Doctrine :
 
@@ -27,7 +27,7 @@ php bin/console doctrine:migrations:migrate
 
 ---
 
-##🌐Lancement du serveur de développement
+## 🌐Lancement du serveur de développement
 
 Utilisez le serveur local de Symfony :
 
@@ -69,7 +69,7 @@ php bin/console list
 
 ---
 
-##🌐Workflow de développement typique
+## 🌐Workflow de développement typique
 
 Pour ajouter de nouvelles fonctionnalités, les commandes `make:` suivantes sont très utiles :
 
@@ -109,7 +109,7 @@ cp .env.example .env
 
 ---
 
-##🌐Exemple de fichier `.env.example`
+## 🌐Exemple de fichier `.env.example`
 
 ```dotenv
 APP_ENV=dev
@@ -120,7 +120,7 @@ MAILER_DSN=null://null
 
 ---
 
-##🌐Liens utiles
+## 🌐Liens utiles
 
 - [Documentation officielle Symfony (FR)](https://symfony.com/doc/current/index.html)
 - [Symfony CLI](https://symfony.com/download)
@@ -130,6 +130,6 @@ MAILER_DSN=null://null
 
 ---
 
-##Licence
+## Licence
 
 Projet personnel à but pédagogique.  
